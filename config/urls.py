@@ -4,6 +4,6 @@ from config.views import main, burger_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', main),Z
+    path('', main),
     path('burgers', burger_list),
 ]
